@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  background-color: #fef6e4;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  background-color: #fef6e4;
+  color: #001858;
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+}
+
+button:hover {
+  background-color: #f582ae;
+  color: #fef6e4;
+  cursor: pointer;
+}
+
+.input-area {
+  background-color: #74cdd8;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.incomplete-area {
+  background-color: #8bd3dd;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.completed-area {
+  background-color: #f3d2c1;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #172c66;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.list-name {
+  margin-right: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
