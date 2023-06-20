@@ -40,12 +40,23 @@ export const App = () => {
     setCompleteTodos(newCompleteTodos);
   };
 
-  
+  // const onClickListButton = (index, deleteTarget, addTarget) => {
+  //   const newDeleteTarget = [...deleteTarget];
+  //   newDeleteTarget.splice(index, 1);
+
+  //   if (addTarget !== null) {
+  //     const newAddTarget = [...addTarget, deleteTarget[index]];
+  //   }
+  // };
 
   return (
     <>
       <div className="input-area">
-        <input placeholder="TODOを入力" value={todoText} onChange={onChangeTodoText} />
+        <input
+          placeholder="TODOを入力"
+          value={todoText}
+          onChange={onChangeTodoText}
+        />
         <button onClick={onClickAdd}>追加</button>
       </div>
       <div className="incomplete-area">
